@@ -58,13 +58,13 @@ O projeto está em constante evolução. Algumas ideias para próximas versões:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/surf-guide.git
+git clone https://github.com/felinharess/Primeira-Onda.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd surf-guide
+cd Primeira-Onda
 ```
 
 3. Instale as dependências:
