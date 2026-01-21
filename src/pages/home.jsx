@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/header/header'
-import Footer from '../components/footer/Footer'
-import VideoCard from '../components/Videos/Videos'
+import Header from '../components/Header/Header.jsx'
+import Footer  from '../components/Footer/Footer.jsx'
+import VideoCard from '../components/Videos/Videos.jsx'
 import './home.css'
 
 function Home() {
