@@ -53,9 +53,6 @@ O projeto está em constante evolução. Algumas ideias para próximas versões:
 ---
 
 
-
----
-
 ## ▶️ Como executar o projeto localmente
 
 1. Clone o repositório:
