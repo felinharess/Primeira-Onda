@@ -1,7 +1,7 @@
 
-# 🌊 Surf Guide
+# 🌊 Primeira Onda
 
-O **Surf Guide** é um projeto voltado para pessoas que desejam entrar no mundo do surf e não sabem por onde começar.  
+O **Primeira Onda** é um projeto voltado para pessoas que desejam entrar no mundo do surf e não sabem por onde começar.  
 A ideia é servir como um **guia inicial**, reunindo informações, inspirações e, futuramente, dados práticos para quem quer aprender e evoluir no esporte.
 
 ---
