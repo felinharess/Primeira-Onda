@@ -52,24 +52,7 @@ O projeto está em constante evolução. Algumas ideias para próximas versões:
 
 ---
 
-## 📁 Estrutura do Projeto
 
-```bash
-src/
-├── components/
-│   ├── Header/
-│   ├── Footer/
-│   └── ...
-│
-├── pages/
-│   └── Home/
-│
-├── routes/
-│   └── AppRoutes.jsx
-│
-├── App.jsx
-└── main.jsx
-````
 
 ---
 
@@ -123,4 +106,3 @@ Este projeto é de uso livre para fins educacionais e pessoais.
 
 Desenvolvido com 💙 e paixão pelo surf 🌊
 
-```
