@@ -1,11 +1,4 @@
-Consigo sim 👍
-Vou criar um **README profissional**, claro e bem escrito, em português, já pensando que esse projeto **vai crescer no futuro** (API de ondas, spots, etc.).
 
-Você pode **copiar e colar direto no `README.md`** do GitHub.
-
----
-
-````md
 # 🌊 Surf Guide
 
 O **Surf Guide** é um projeto voltado para pessoas que desejam entrar no mundo do surf e não sabem por onde começar.  
