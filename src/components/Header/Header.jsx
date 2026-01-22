@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
 
     useEffect(() => {
         let ticking = false;
-        
+
         const handleScroll = () => {
             if (!ticking) {
                 window.requestAnimationFrame(() => {
@@ -23,7 +24,7 @@ function Header() {
         };
 
         window.addEventListener('scroll', handleScroll, { passive: true });
-        handleScroll(); 
+        handleScroll();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -36,17 +37,17 @@ function Header() {
 
     const handleNavClick = (e, targetId) => {
         e.preventDefault();
-        
+
         if (targetId === '#') return;
-        
+
         setIsMenuOpen(false);
-        
+
         setTimeout(() => {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 const headerHeight = document.querySelector('header').offsetHeight;
                 const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-                
+
                 window.scrollTo({
                     top: targetPosition - headerHeight,
                     behavior: 'smooth'
@@ -68,10 +69,15 @@ function Header() {
                     </div>
                     <nav className={isMenuOpen ? 'active' : ''}>
                         <ul>
-                            <li><a href="#home" onClick={(e) => handleNavClick(e, '#home')}>Início</a></li>
+                            <li><Link to='/' onClick={() => setIsMenuOpen(false)}>Início</Link></li>
                             <li><a href="#videos" onClick={(e) => handleNavClick(e, '#videos')}>Vídeos</a></li>
                             <li><a href="#galeria" onClick={(e) => handleNavClick(e, '#galeria')}>Galeria</a></li>
                             <li><a href="#sobre" onClick={(e) => handleNavClick(e, '#sobre')}>Sobre</a></li>
+                            <li>
+                                <Link to="/surf-spots" onClick={() => setIsMenuOpen(false)}>
+                                    SurfSpots
+                                </Link>
+                            </li>
                             <li><a href="#contato" onClick={(e) => handleNavClick(e, '#contato')}>Contato</a></li>
                         </ul>
                     </nav>

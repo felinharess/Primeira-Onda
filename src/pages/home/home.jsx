@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header/Header.jsx'
-import Footer  from '../components/Footer/Footer.jsx'
-import VideoCard from '../components/Videos/Videos.jsx'
+import Header from '../../components/Header/Header.jsx'
+import Footer  from '../../components/Footer/Footer.jsx'
+import VideoCard from '../../components/Videos/Videos.jsx';
 import './home.css'
 
 function Home() {
@@ -104,4 +104,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;
